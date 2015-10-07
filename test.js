@@ -6,7 +6,7 @@ test(t => {
 
 	childProcess.execFile('./cli.js', ['fixture.js'], {
 		cwd: __dirname
-	}, function (err, stdout) {
+	}, (err, stdout) => {
 		t.ifError(err);
 		t.true(stdout.trim().length > 0);
 	});
