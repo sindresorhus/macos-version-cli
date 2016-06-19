@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 'use strict';
 const meow = require('meow');
-const osxVersion = require('osx-version');
+const macosVersion = require('macos-version');
 
 meow(`
 	Example
-	  $ osx-version
+	  $ macos-version
 	  10.9.3
 `);
 
-osxVersion().then(console.log);
+macosVersion().then(console.log);

@@ -1,31 +1,31 @@
-# osx-version-cli [![Build Status](https://travis-ci.org/sindresorhus/osx-version-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/osx-version-cli)
+# macos-version-cli [![Build Status](https://travis-ci.org/sindresorhus/macos-version-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/macos-version-cli)
 
-> Get the OS X version of the current system. Example: `10.9.3`
+> Get the macOS version of the current system. Example: `10.9.3`
 
 
 ## Install
 
 ```
-$ npm install --global osx-version-cli
+$ npm install --global macos-version-cli
 ```
 
 
 ## Usage
 
 ```
-$ osx-version --help
+$ macos-version --help
 
   Example
-    $ osx-version
+    $ macos-version
     10.9.3
 ```
 
 
 ## Related
 
-- [osx-version](https://github.com/sindresorhus/osx-version) - API for this module
+- [macos-version](https://github.com/sindresorhus/macos-version) - API for this module
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

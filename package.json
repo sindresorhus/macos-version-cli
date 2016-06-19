@@ -1,16 +1,16 @@
 {
-  "name": "osx-version-cli",
+  "name": "macos-version-cli",
   "version": "1.0.0",
-  "description": "Get the OS X version of the current system",
+  "description": "Get the macOS version of the current system",
   "license": "MIT",
-  "repository": "sindresorhus/osx-version-cli",
+  "repository": "sindresorhus/macos-version-cli",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
   },
   "bin": {
-    "osx-version": "cli.js"
+    "macos-version": "cli.js"
   },
   "engines": {
     "node": ">=4"
@@ -25,6 +25,7 @@
     "cli-app",
     "cli",
     "os",
+    "macos",
     "osx",
     "operating",
     "system",
@@ -32,12 +33,12 @@
     "version"
   ],
   "dependencies": {
-    "meow": "^3.4.1",
-    "osx-version": "^2.0.0"
+    "macos-version": "^3.0.0",
+    "meow": "^3.7.0"
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "^0.3.0",
+    "execa": "^0.4.0",
     "xo": "*"
   },
   "xo": {
