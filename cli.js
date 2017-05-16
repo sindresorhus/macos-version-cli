@@ -9,4 +9,4 @@ meow(`
 	  10.9.3
 `);
 
-macosVersion().then(console.log);
+console.log(macosVersion());
