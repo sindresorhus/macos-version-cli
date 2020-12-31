@@ -1,4 +1,4 @@
-# macos-version-cli [![Build Status](https://travis-ci.org/sindresorhus/macos-version-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/macos-version-cli)
+# macos-version-cli
 
 > Get the macOS version of the current system. Example: `10.9.3`
 
