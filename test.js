@@ -1,6 +1,7 @@
 import test from 'ava';
 import execa from 'execa';
 
-test(async t => {
-	t.true((await execa.stdout('./cli.js', ['fixture.js'])).length > 0);
+test('main', async t => {
+	const {stdout} = await execa('./cli.js', ['fixture.js']);
+	t.true(stdout.length > 0);
 });

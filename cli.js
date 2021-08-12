@@ -1,12 +1,13 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const macosVersion = require('macos-version');
+import meow from 'meow';
+import {macOSVersion} from 'macos-version';
 
 meow(`
 	Example
 	  $ macos-version
 	  10.9.3
-`);
+`, {
+	importMeta: import.meta,
+});
 
-console.log(macosVersion());
+console.log(macOSVersion());

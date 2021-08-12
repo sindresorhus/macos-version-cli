@@ -1,44 +1,45 @@
 {
-  "name": "macos-version-cli",
-  "version": "1.1.0",
-  "description": "Get the macOS version of the current system",
-  "license": "MIT",
-  "repository": "sindresorhus/macos-version-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "macos-version": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "os",
-    "macos",
-    "osx",
-    "operating",
-    "system",
-    "platform",
-    "version"
-  ],
-  "dependencies": {
-    "macos-version": "^4.0.0",
-    "meow": "^3.7.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.6.3",
-    "xo": "*"
-  }
+	"name": "macos-version-cli",
+	"version": "1.1.0",
+	"description": "Get the macOS version of the current system",
+	"license": "MIT",
+	"repository": "sindresorhus/macos-version-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"bin": {
+		"macos-version": "./cli.js"
+	},
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"os",
+		"macos",
+		"operating",
+		"system",
+		"platform",
+		"version"
+	],
+	"dependencies": {
+		"macos-version": "^6.0.0",
+		"meow": "^10.1.1"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"execa": "^5.1.1",
+		"xo": "^0.44.0"
+	}
 }
