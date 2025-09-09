@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --global macos-version-cli
+```sh
+npm install --global macos-version-cli
 ```
 
 ## Usage
@@ -45,4 +45,4 @@ $ macos-version --help
 
 ## Related
 
-- [macos-version](https://github.com/sindresorhus/macos-version) - API for this module
+- [macos-version](https://github.com/sindresorhus/macos-version) - API for this package
